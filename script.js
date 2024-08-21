@@ -57,7 +57,7 @@ let PerguntaAtual;
 
 function mostrarPerguntas (){
     perguntaAtual = alternativas[atual];
-    caixaPerguntas.textContent = PerguntaAtual.enunciado;
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
 }
 
