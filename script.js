@@ -9,12 +9,10 @@ const alternativas = [
         enunciado: "No âmbito social, você prefere:",
         alternativa:[
             {
-
                 texto: "Alternativa 1",
                 afirmação:"Afirmação 1",
             },
             {
-
                 texto: "Alternativa 2",
                 afirmação:"Afirmação 2",
             },
@@ -24,12 +22,10 @@ const alternativas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativa:[
             {
-
                 texto: "Alternativa 3",
                 afirmação:"Afirmação 3",
             },
             {
-
                 texto: "Alternativa 4",
                 afirmação:"Afirmação 4",
             },
@@ -39,12 +35,10 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa:[
             {
-
                 texto: "Alternativa 5",
                 afirmação:"Afirmação 5",
             },
             {
-
                 texto: "Alternativa 6",
                 afirmação:"Afirmação 6",
             },
