@@ -56,14 +56,14 @@ let atual = 0;
 let PerguntaAtual;
 
 function mostrarPerguntas (){
-    perguntaAtual = alternativas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    PerguntaAtual = alternativas[atual];
+    caixaPerguntas.textContent = PerguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
 function mostraAlternativas(){
-    for (const opcao of perguntaAtual.alternativa){
+    for (const opcao of PerguntaAtual.alternativa){
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = opcao.texto;
         caixaAlternativas.appendChild(botaoAlternativa);
