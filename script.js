@@ -9,12 +9,12 @@ const alternativas = [
         enunciado: "No âmbito social, você prefere:",
         alternativa: [
             {
-                texto: "Ninguém mais passa fome",
-                afirmacao: "Mas todas as algas morrem",
+                texto: "Ninguém mais passa fome Mas todas as algas morrem",
+                afirmacao: "o mundo todo morreu por falta de oxigenio",
             },
             {
-                texto: "Ter uma Pizza Infinita",
-                afirmacao: "Mas transmitir doenças com um toque",
+                texto: "Ter uma Pizza Infinita Mas transmitir doenças com um toque",
+                afirmacao: "voce se tornou uma arma belica e será isolado",
             },
         ]
     },
@@ -22,13 +22,13 @@ const alternativas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "O conflito Rússia x Ucrânia é solucionado",
-                afirmacao: "mas itália deixa de existir",
+                texto: "O conflito Rússia x Ucrânia é solucionado mas itália deixa de existir",
+                afirmacao: "as receiras originarias de massas foram perdidas",
             },
             {
-                texto: "",
-                texto: "o conflito da faixa de gaza é resolvido ",
-                afirmacao: "mas uma bomba cai na África",
+             
+                texto: "o conflito da faixa de gaza é resolvido mas uma bomba cai na África",
+                afirmacao: "",
             },
         ]
     },
@@ -36,12 +36,12 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "possuir tecnologia alienígena",
-                afirmacao: "mas ela será decoberta",
+                texto: "possuir tecnologia alienígena mas ela será decoberta",
+                afirmacao: "",
             },
             {
-                texto: "ter 1 pokémon de sua escolha na vida real",
-                afirmacao: "mas 5 crianças haitianas morrem brutalmente na sua frente",
+                texto: "ter 1 pokémon de sua escolha na vida real mas 5 crianças haitianas morrem brutalmente na sua frente",
+                afirmacao: "",
             },
         ]
     },
@@ -72,7 +72,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcao){
-    const afirmacoes = opcao.alternativas;
+    const afirmacoes = opcao.afirmacao;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
