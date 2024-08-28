@@ -10,11 +10,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ninguém mais passa fome Mas todas as algas morrem",
-                afirmacao: "o mundo todo morreu por falta de oxigenio",
+                afirmacao: "O mundo todo morreu por falta de oxigênio",
             },
             {
                 texto: "Ter uma Pizza Infinita Mas transmitir doenças com um toque",
-                afirmacao: "voce se tornou uma arma belica e será isolado",
+                afirmacao: "Você se tornou uma arma bélica e será isolado",
             },
         ]
     },
@@ -23,12 +23,12 @@ const alternativas = [
         alternativa: [
             {
                 texto: "O conflito Rússia x Ucrânia é solucionado mas itália deixa de existir",
-                afirmacao: "as receiras originarias de massas foram perdidas",
+                afirmacao: "As receiras originarias de massas foram perdidas",
             },
             {
              
-                texto: "o conflito da faixa de gaza é resolvido mas uma bomba cai na África",
-                afirmacao: "",
+                texto: "O conflito da faixa de gaza é resolvido mas uma bomba cai na África",
+                afirmacao: "Todos sabem que você fez esta escolha",
             },
         ]
     },
@@ -36,12 +36,12 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "possuir tecnologia alienígena mas ela será decoberta",
-                afirmacao: "",
+                texto: "Possuir tecnologia alienígena mas só você possuir",
+                afirmacao: "Ela será descoberta",
             },
             {
-                texto: "ter 1 pokémon de sua escolha na vida real mas 5 crianças haitianas morrem brutalmente na sua frente",
-                afirmacao: "",
+                texto: "Ter 1 pokémon de sua escolha na vida real mas 5 crianças haitianas morrem brutalmente na sua frente",
+                afirmacao: "Parabéns...",
             },
         ]
     },
