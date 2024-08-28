@@ -22,12 +22,13 @@ const alternativas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "Altenativa 3",
-                afirmacao: "Afirmação 3",
+                texto: "O conflito Rússia x Ucrânia é solucionado",
+                afirmacao: "mas itália deixa de existir",
             },
             {
-                texto: "Altenativa 4",
-                afirmacao: "Afirmação 4",
+                texto: "",
+                texto: "o conflito da faixa de gaza é resolvido ",
+                afirmacao: "mas uma bomba cai na África",
             },
         ]
     },
@@ -35,12 +36,12 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "Altenativa 5",
-                afirmacao: "Afirmação 5",
+                texto: "possuir tecnologia alienígena",
+                afirmacao: "mas ela será decoberta",
             },
             {
-                texto: "Altenativa 6",
-                afirmacao: "Afirmação 6",
+                texto: "ter 1 pokémon de sua escolha na vida real",
+                afirmacao: "mas 5 crianças haitianas morrem brutalmente na sua frente",
             },
         ]
     },
